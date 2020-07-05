@@ -1,0 +1,40 @@
+{
+"type": "ItemTurret",
+"name": "Villager Turret",
+"description": "Shoots Anoying Villager.",
+"targetAir": true,
+"targetGround": true,
+"health": 500,
+"shootType": "BasicBulletType",
+"size": 3,
+"reload": 30,
+"range": 400,
+"shootCone": 20,
+"shots": 1,
+"ammoUseEffect": "shellEjectSmall",
+"inaccuracy": 0,
+"rotatespeed": 1,
+"ammo": {
+  "lead": {
+    "type": "BasicBulletType",
+	  "speed": 5,
+	  "damage": 150,
+	  "bulletWidth": 20,
+	  "bulletHeight": 23,
+	  "bulletShrink": 0,
+	  "lifetime": 300,
+	  "shootEffect": "explosion",
+	  "smokeEffect": "shootBigSmoke2",
+	  "ammoMultiplier": 1,
+	"bulletSprite": "villager-turret-villager-bullet",
+    }	
+},
+"requirements": [
+        { "item": "copper", "amount": 150 },
+		{ "item": "lead", "amount": 75 },		
+],
+"category": "turret"
+"shootSound": "villageraccept"
+"research": "duo"
+"outlineIcon": false,
+}
