@@ -18,7 +18,7 @@
   "lead": {
     "type": "BasicBulletType",
 	  "speed": 5,
-	  "damage": 150,
+	  "damage": 50,
 	  "bulletWidth": 20,
 	  "bulletHeight": 23,
 	  "bulletShrink": 0,
@@ -31,7 +31,7 @@
 },
 "requirements": [
         { "item": "copper", "amount": 150 },
-		{ "item": "lead", "amount": 75 },		
+		{ "item": "titanium", "amount": 75 },		
 ],
 "category": "turret"
 "shootSound": "villageraccept"
